@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3095ba862e7340c98a82bbeb0fd053c9" Name="Diagram1">
+        <EntityTypeShape EntityType="ShopExampleModel.Footer" Width="1.5" PointX="5.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.MenuGroup" Width="1.5" PointX="5.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.Menu" Width="1.5" PointX="8" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.OrderDetail" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.Order" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.Page" Width="1.5" PointX="7.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.PostCategory" Width="1.5" PointX="0.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.Post" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.ProductCategory" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.Product" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.Slide" Width="1.5" PointX="7.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.SupportOnline" Width="1.5" PointX="9.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.sysdiagram" Width="1.5" PointX="9.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.SystemConfig" Width="1.5" PointX="10.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.Tag" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopExampleModel.VisitorStatistic" Width="1.5" PointX="11.75" PointY="5.875" IsExpanded="true" />
+        <AssociationConnector Association="ShopExampleModel.FK_Menus_MenuGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopExampleModel.FK_OrderDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopExampleModel.FK_OrderDetail_ProductCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopExampleModel.FK_Posts_PostCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopExampleModel.FK_Products_ProductCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopExampleModel.PostTags" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopExampleModel.ProductTags" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
